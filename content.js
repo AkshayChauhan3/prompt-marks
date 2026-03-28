@@ -3,6 +3,7 @@
   let rafId           = null;
   let cachedContainer = null;
   let lastMsgCount    = 0;
+  let currentUrl      = location.href;
 
   /* ── Scroll container ─────────────────────────────────────── */
   function findScrollContainer() {
@@ -40,9 +41,10 @@
     const messages = document.querySelectorAll('[data-message-author-role="user"]');
     if (messages.length === 0) return;
 
-    // Skip rebuild if nothing new arrived
-    if (messages.length === lastMsgCount && document.querySelector('.cgpt-rail')) return;
+    // Skip rebuild if nothing new arrived AND url is same
+    if (messages.length === lastMsgCount && currentUrl === location.href && document.querySelector('.cgpt-rail')) return;
     lastMsgCount = messages.length;
+    currentUrl   = location.href;
 
     // Tear down old UI
     document.querySelector('.cgpt-rail')?.remove();

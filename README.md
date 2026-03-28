@@ -48,7 +48,7 @@ Ever had a 50-message conversation and needed to jump back to **that one questio
 ## 🎮 How to Use
 
 ```
-Open any conversation on ChatGPT
+Open any conversation on ChatGPT (or switch chats in the sidebar!)
         ↓
 Look at the right edge of the screen → thin glowing rail appears
         ↓
