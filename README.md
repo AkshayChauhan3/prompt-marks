@@ -91,3 +91,7 @@ feat: Add Claude support with proper message selectors
 **Your contribution will help thousands of users!** 🎉
 
 
+
+https://github.com/user-attachments/assets/db6a27f5-1e1c-494c-8e7b-c6690a732941
+
+
