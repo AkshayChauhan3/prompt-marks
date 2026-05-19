@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Prompt Marks",
-  "version": "2.0",
-  "description": "ChatGPT message navigator - jump between your sent messages instantly",
+  "name": "Prompt Marks v2.1",
+  "version": "2.1",
+  "description": "ChatGPT message navigator — jump between sent messages. Works across reloads & SPA navigation.",
   "permissions": ["activeTab", "scripting"],
   "content_scripts": [
     {
