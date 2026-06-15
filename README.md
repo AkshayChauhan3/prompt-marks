@@ -2,6 +2,10 @@
 
 > *Jump between your ChatGPT messages instantly — works across reloads, new chats, and SPA navigation.*
 
+> [!NOTE]
+> **Project Archived / Journey Ended**
+> Since ChatGPT now has its own native question navigation/scrollbar, Prompt Marks has reached its destination and the journey of this extension ends here. Thank you to everyone who used Prompt Marks! ⚡
+
 Ever lost track of a question you asked 20 messages ago? **Prompt Marks fixes that.** Click the floating ⚡ button to see all your sent messages, then jump to any one with a single click — even after switching chats or reloading the page.
 
 ---
